@@ -1,24 +1,33 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Blockchain Developers United",
+        "paragraph": "BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": 
+        "Blockchain Developers United is a decentralized network of blockchain developer communities, including both in-person meetup groups across the globe, and online only communities dedicated to specific technologies or interests. BDU member communities organize regular meetups that bring together blockchain developers of all skill levels to train, share resources and collaborate. Hands on training is emphasized in particular to teach developers how to really implement blockchain applications.",
+        "mission":
+        "BDU’s mission is to pursue the interests of its member communities. train new developers, and to promote deep collaboration between developer communities.",
+        "governance":
+        "BDU membership requirements and rules for new communities are determined by existing member communities. The requirements and rules are updated dynamically by the collective decision making of community organizers to reflect community needs and the overall state of the blockchain ecosystem.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "To provide hands on developer training",
+            "To train local blockchain developer talent",
+            "To collaborate on projects small and large",
+            "To provide meeting places in open learning environments for developers",
+            "To provide community testing and debugging"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
-        ]
+            "To provide shared access to developer resources",
+            "To connect developers with teams looking for talent",
+            "To create an army of blockchain developers",
+            "To provide access to opportunities for developers",
+            "To negotiate group rates for developer resources"
+        ],
+        "devcash": "Devcash is cash for the developer economy. Devcash was created to support BDU and incentivize participation.",
+        "specs": "High gas fees on Ethereum mean the majority of devcash transactions are far too expensive to carry out on Ethereum Mainnet. Therefore we have set up devcash and devcash apps on Layer 2 networks."
     },
     "Services": [{
             "icon": "fa fa-wordpress",
@@ -55,33 +64,18 @@
     ],
     "Testimonials": [{
             "img": "img/testimonials/01.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
+            "text": "\"Its all about community. And being connected to a network of talent who are eager to help solve your problems.\"",
+            "name": "BDU Kingston Community Member"
         },
         {
             "img": "img/testimonials/02.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"This is where crypto and humans build great things.\"",
             "name": "Johnathan Doe"
         },
         {
             "img": "img/testimonials/03.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "text": "\"Its being part of communities like BDU where one is reminded of the value of building the future of a blockchain first world.\"",
             "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/04.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
-        },
-        {
-            "img": "img/testimonials/05.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "John Doe"
-        },
-        {
-            "img": "img/testimonials/06.jpg",
-            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-            "name": "Johnathan Doe"
         }
     ],
     "Team": [{
@@ -112,25 +106,26 @@
         "twitter": "twitter.com",
         "youtube": "youtube.com"
     },
-    "Features": [{
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    "Platforms": [
+        {
+        "icon": "fa fa-group",
+        "title": "Events",
+        "text": "Discover the Meet-up communities across the globe. Join an existing one or start your own."
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "DevCash",
+            "text": "Learn about the cash used among the BDU developper community, how it's used and how you can use it."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "icon": "fa fa-comments-o",
+            "title": "Social",
+            "text": "Join a communtiy of 100+ BDU members on Telegram and Discord."
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Learn and Earn",
+            "text": "A bounty platform where novice learners get paid for completing crypto-educational tutorials of all sorts (alpha)."
         }
     ]
 }

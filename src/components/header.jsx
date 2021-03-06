@@ -17,10 +17,16 @@ export class Header extends Component {
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>
                   <a
-                    href="#features"
+                    href="#about"
                     className="btn btn-custom btn-lg page-scroll"
                   >
                     Learn More
+                  </a>{" "}
+                  <a
+                    href="https://docs.google.com/document/d/1sfbVBag7XI0dN3Wz-gMWJzAjse8KgJLZ71XtHEGk5Yk/edit"
+                    className="btn btn-custom btn-lg page-scroll"
+                  >
+                    Litepaper
                   </a>{" "}
                 </div>
               </div>

@@ -11,8 +11,7 @@ export class Contact extends Component {
                 <div className="section-title">
                   <h2>Get In Touch</h2>
                   <p>
-                    Please fill out the form below to send us an email and we
-                    will get back to you as soon as possible.
+                    Reach out with any questions, community development or content ideas you may have. Members of BDU would love to hear them and collaborate !
                   </p>
                 </div>
                 <form name="sentMessage" id="contactForm" noValidate>
@@ -117,7 +116,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
+              Specials thanks for this Template by <a href="https://github.com/issaafalkattan" rel="nofollow"> Issaaf Kattan</a> and Design by{" "}
               <a href="http://www.templatewire.com" rel="nofollow">
                 TemplateWire
               </a>

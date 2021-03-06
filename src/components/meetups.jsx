@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 
-export class Gallery extends Component {
+export class Meetups extends Component {
   render() {
     return (
-      <div id="portfolio" className="text-center">
+      <div id="meetups" className="text-center">
         <div className="container">
           <div className="section-title">
-            <h2>Gallery</h2>
+            <h2>Meetups</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-              dapibus leonec.
+              Discover events in your timezone or location. Get networking with fellow BDU members. Join a BDU community or <a href="#apply"> apply to create your own</a>.
             </p>
           </div>
           <div className="row">
@@ -24,10 +23,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Toronto, ON</h4>
                       </div>
                       <img
-                        src="img/portfolio/01-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -45,10 +44,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>San Mateo, CA</h4>
                       </div>
                       <img
-                        src="img/portfolio/02-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -66,10 +65,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Berlin, Germany</h4>
                       </div>
                       <img
-                        src="img/portfolio/03-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -87,10 +86,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Singapore, SG</h4>
                       </div>
                       <img
-                        src="img/portfolio/04-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -108,10 +107,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Tokyo, Japan</h4>
                       </div>
                       <img
-                        src="img/portfolio/05-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -129,10 +128,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Dolor Sit</h4>
+                        <h4>Stockholm, Sweden</h4>
                       </div>
                       <img
-                        src="img/portfolio/06-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -150,10 +149,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Dolor Sit</h4>
+                        <h4>Mumbai, India</h4>
                       </div>
                       <img
-                        src="img/portfolio/07-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -171,10 +170,10 @@ export class Gallery extends Component {
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Lorem Ipsum</h4>
+                        <h4>Athens, Greece</h4>
                       </div>
                       <img
-                        src="img/portfolio/08-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -187,15 +186,15 @@ export class Gallery extends Component {
                   <div className="hover-bg">
                     {" "}
                     <a
-                      href="img/portfolio/09-large.jpg"
+                      href="img/portfolio/temp-meetup-img.jpg"
                       title="Project Title"
                       data-lightbox-gallery="gallery1"
                     >
                       <div className="hover-text">
-                        <h4>Adipiscing Elit</h4>
+                        <h4>Cape Town, South Africa</h4>
                       </div>
                       <img
-                        src="img/portfolio/09-small.jpg"
+                        src="img/portfolio/temp-meetup-img.jpg"
                         className="img-responsive"
                         alt="Project Title"
                       />{" "}
@@ -205,10 +204,16 @@ export class Gallery extends Component {
               </div>
             </div>
           </div>
+          
+        </div>
+        {/*A very ugly way to do maps */}
+        <div className="row">
+          <br/><br/>
+            <iframe width="700" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=antarctica&t=&z=1&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
       </div>
     );
   }
 }
 
-export default Gallery;
+export default Meetups;
