@@ -1,4 +1,7 @@
 # BDU Website
+WIP. Open to contributions.
+
+Current deploy: https://6046996bd5e86507d293010a--bdu.netlify.app/#about
 
 ## Description
 This website is intended to be the central entry point for folks interested in learning about different platforms within the BDU community as well as those interested in joining.
