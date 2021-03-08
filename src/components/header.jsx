@@ -10,9 +10,15 @@ export class Header extends Component {
               <div className="row">
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
-                    {this.props.data ? this.props.data.title : "Loading"}
+                  <div>
+                    <img className="logo" src="./img/bdu_written.png" alt=""/>
+                  </div>
+            
                     <span></span>
                   </h1>
+                  <div>
+                    <img src="./img/about.png" alt=""/>
+                  </div>
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}
                   </p>

@@ -1,7 +1,7 @@
 {
     "Header": {
 
-        "title": "Blockchain Developers United",
+        "image": "img/bdu_written.png",
         "paragraph": "BDU is a decentralized network of blockchain developer communities aiming to bring blockchain developers of all skill levels to train, share resources and collaborate together."
 
     },
@@ -103,8 +103,8 @@
         "phone": "+1 123 456 1234",
         "email": "info@company.com",
         "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "youtube": "youtube.com",
+        "twitter": "twitter.com"
     },
     "Platforms": [
         {
