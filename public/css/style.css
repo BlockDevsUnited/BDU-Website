@@ -186,8 +186,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.png) center center no-repeat;
-	background-color: #e5e5e5;
+	background: url(../img/) center center no-repeat;
+	background-color: #3366cc;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -218,13 +218,25 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin-bottom: 60px;
 }
 header .intro-text {
-	padding-top: 350px;
-	padding-bottom: 200px;
+	padding-top: 180px;
+	padding-bottom: 100px;
 	text-align: center;
+}
+
+#header img {
+	display: flexbox;
+	width: 500px;
+	margin-bottom: 50px;
+}
+
+#header .logo {
+	display: flexbox;
+	width: 4em;
+	border-radius: 10px;
 }
 /* Features Section */
 #features {
-	padding: 100px 0;
+	padding: 120px 0;
 	background: #f6f6f6;
 }
 #features i.fa {
@@ -241,7 +253,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 100px 0;
+	padding: 130px 0;
 }
 #about h3 {
 	font-size: 22px;
@@ -275,9 +287,10 @@ header .intro-text {
 	font-weight: 300;
 	padding-right: 8px;
 }
+
 #about img {
-	width: 520px;
-	margin-top: 10px;
+	width: 40px;
+	padding-bottom: 3px;
 	background: #fff;
 	border-right: 0;
 	box-shadow: 0 0 50px rgba(0,0,0,0.06);
@@ -285,6 +298,9 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+}
+#devcash {
+	padding-top: 120px;
 }
 /* Services Section */
 #services {
@@ -376,7 +392,7 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-	padding: 100px 0;
+	padding: 120px 0;
 	background: #f6f6f6;
 }
 #testimonials i {
@@ -415,7 +431,7 @@ header .intro-text {
 }
 /* Team Section */
 #team {
-	padding: 100px 0;
+	padding: 120px 0;
 }
 #team h4 {
 	margin: 5px 0;
@@ -433,7 +449,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-	padding: 100px 0 60px 0;
+	padding: 120px 0 60px 0;
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	color: rgba(255,255,255,.75);
 }
