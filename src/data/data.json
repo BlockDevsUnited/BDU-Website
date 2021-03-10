@@ -102,9 +102,9 @@
         "address": "4321 California St, San Francisco, CA 12345 ",
         "phone": "+1 123 456 1234",
         "email": "info@company.com",
-        "facebook": "fb.com",
-        "youtube": "youtube.com",
-        "twitter": "twitter.com"
+        "discord": "discord.org",
+        "twitter": "twitter.com",
+        "telegram": "fa fa-telegram"
     },
     "Platforms": [
         {

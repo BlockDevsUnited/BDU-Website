@@ -4,9 +4,9 @@ export class about extends Component {
   render() {
     return (
       <div id="about">
-        <div className="container">
+       <div className="container image-grid">
           <div className="row">
-            <div className="col-xs-12 col-md-3">  </div>
+            <div className="col-md-3 bg-1"><p></p></div>
             <div className="col-xs-12 col-md-6">
               <div className="about-text">
                 <div>
@@ -23,9 +23,12 @@ export class about extends Component {
                 </div>
               </div>
             </div>
-          </div>
+           <div className="col-md-3 bg-1"><p></p></div>
         </div>
+     </div>
+    
 
+     <div id="goals">
         <div className="container">
           <div className="row">
             <div className="about-text">
@@ -45,9 +48,9 @@ export class about extends Component {
               </div>
             </div>
           </div>
-
         </div>
-      </div>
+       </div>
+     </div>
     )
   }
 }

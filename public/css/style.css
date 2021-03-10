@@ -76,6 +76,7 @@ hr {
 }
 #menu a.navbar-brand {
 	font-family: 'Raleway', sans-serif;
+	display: flexbox;
 	font-size: 24px;
 	font-weight: 700;
 	color: #333;
@@ -89,7 +90,7 @@ hr {
 	font-weight: 400;
 	padding: 8px 2px;
 	border-radius: 0;
-	margin: 9px 20px 0 20px;
+	margin: 9px 0 0 10px;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
 	display: block;
@@ -104,6 +105,14 @@ hr {
 }
 #menu.navbar-default .navbar-nav > li > a:hover:after {
 	width: 100%;
+}
+#menu img {
+	width: 40px;
+	margin-left: -35px;
+	margin-top: -5px;
+	background: #fff;
+	border-right: 0;
+	box-shadow: 0 0 50px rgba(0,0,0,0.06);
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: transparent;
@@ -255,6 +264,10 @@ header .intro-text {
 #about {
 	padding: 130px 0;
 }
+#about #goals {
+	margin-top: 40px;
+	background: #f6f6f6;
+}
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
@@ -272,6 +285,17 @@ header .intro-text {
 	width: 60px;
 	bottom: 0;
 	left: 0;
+}
+
+#about .bg-1 {
+	background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80");
+	background-repeat: repeat;
+	height: 100vh;
+	background-size: contain;
+}
+#about .about-text {
+	margin-bottom: 200px;
+	position: relative;
 }
 #about .about-text li {
 	margin-bottom: 6px;
@@ -593,4 +617,9 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+}
+@media (max-width: 992px) {
+	#about .bg-1 {
+		display: none;
+	}
 }

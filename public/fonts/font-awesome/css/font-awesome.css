@@ -545,7 +545,7 @@
 .fa-twitter-square:before {
   content: "\f081";
 }
-.fa-facebook-square:before {
+.fa--square:before {
   content: "\f082";
 }
 .fa-camera-retro:before {
@@ -560,6 +560,9 @@
 }
 .fa-comments:before {
   content: "\f086";
+}
+.fa-telegram:before {
+  content: "\f2c6";
 }
 .fa-thumbs-o-up:before {
   content: "\f087";
@@ -615,8 +618,8 @@
 .fa-twitter:before {
   content: "\f099";
 }
-.fa-facebook-f:before,
-.fa-facebook:before {
+.fa--f:before,
+.fa-:before {
   content: "\f09a";
 }
 .fa-github:before {
@@ -1765,7 +1768,7 @@
 .fa-neuter:before {
   content: "\f22c";
 }
-.fa-facebook-official:before {
+.fa--official:before {
   content: "\f230";
 }
 .fa-pinterest-p:before {
@@ -1798,4 +1801,7 @@
 }
 .fa-medium:before {
   content: "\f23a";
+}
+.fa-discord:before {
+  content: "\f392";
 }
