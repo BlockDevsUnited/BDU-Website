@@ -19,8 +19,9 @@ export class Navigation extends Component {
               <span className="icon-bar"></span>{" "}
             </button>
             <a className="navbar-brand page-scroll" href="#page-top">
-              Blockchain Developers United
-            </a>{" "}
+            <img src="img/about.png"  alt="bdu-badge" />
+            </a>
+            <a href="#page-top" className="navbar-brand page-scroll">Blockchain Developers United</a>
           </div>
 
           <div
